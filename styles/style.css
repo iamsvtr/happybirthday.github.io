@@ -8,6 +8,16 @@ canvas {
   top: 0;
   left: 0;
 }
+p a {
+	text-decoration: none;
+	color: #aaa;
+}
+span {
+	font-size: 12px;
+}
+p > a:first-of-type {
+	font-size: 12px;
+}
 body {
   background: #ffffff;
   overflow: hidden;
